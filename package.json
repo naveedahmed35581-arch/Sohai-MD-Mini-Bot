@@ -1,13 +1,13 @@
 {
   "name": "sohaib-md-mini",
-  "version": "2.0.0",
-  "description": "Sohaib MD Mini - WhatsApp Bot by SOHAIB AGENCY",
+  "version": "1.4.0",
+  "description": "Jawad WhatsApp Bot",
   "main": "index.js",
   "scripts": {
     "start": "node --expose-gc index.js",
-    "start:pm2": "pm2 start index.js --node-args='--expose-gc' --deep-monitoring --name sohaib-md-mini",
-    "stop": "pm2 stop sohaib-md-mini",
-    "restart": "pm2 restart sohaib-md-mini",
+    "start:pm2": "pm2 start index.js --node-args='--expose-gc' --deep-monitoring --name ERFAN-MD",
+    "stop": "pm2 stop ERFAN-MD",
+    "restart": "pm2 restart ERFAN-MD",
     "dev": "nodemon index.js"
   },
   "dependencies": {
